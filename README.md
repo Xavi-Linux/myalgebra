@@ -26,7 +26,7 @@ print(a.normalise())
 
 ## MyLine
 
-It implements some basi line functionalities
+It implements some basic line functionalities.
 
 ```python
 
