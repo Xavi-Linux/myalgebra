@@ -23,3 +23,18 @@ print(a.magnitude())
 print(a.normalise())
 
 ```
+
+## MyLine
+
+It implements some basi line functionalities
+
+```python
+
+from vectors import MyVector
+from lines import MyLine
+
+l1 = MyLine(MyVector([1, -1]), 0)
+l2 = MyLine(MyVector([1, 1]), 0)
+print(l1.intersection(l2))
+
+```
