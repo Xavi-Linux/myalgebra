@@ -8,7 +8,7 @@ class MyLine:
         """
         Constructor of the class
         :param normal_vector: a MyVector instance representing the normal vector of the line
-        :param constant: an scalar value
+        :param constant: a scalar value
         """
         #Ax+By=k
         self.dim = 2
