@@ -44,6 +44,10 @@ They help solve 3-variable ecuation systems by implementing the Gauss-Jordan met
 
 ```python
 
+from vectors import MyVector
+from planes import MyPlane
+from linsys import MyLinearSystem
+
 p1 = MyPlane(MyVector([5.862, 1.178, -10.366]), -8.15)
 p2 = MyPlane(MyVector([-2.931, -0.589, 5.183]), -4.075)
 ls = MyLinearSystem([p1, p2])
